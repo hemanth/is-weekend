@@ -1,0 +1,34 @@
+{
+	"name": "is-weekend",
+	"version": "0.0.0",
+	"description": "is it weekend yet?",
+	"license": "MIT",
+	"repository": "hemanth/is-weekend",
+	"author": {
+		"name": "",
+		"email": "",
+		"url": "h3manth.com"
+	},
+	"engines": {
+		"node": ">=0.10.0"
+	},
+	"scripts": {
+		"test": "mocha"
+	},
+	"bin": {
+		"is-weekend": "cli.js"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"date",
+		"is",
+		"weekend",
+		"check"
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"mocha": "*"
+	}
+}
