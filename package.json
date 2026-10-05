@@ -1,6 +1,6 @@
 {
   "name": "is-weekend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "is it weekend yet?",
   "license": "MIT",
   "repository": "hemanth/is-weekend",
@@ -13,7 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha test.js"
   },
   "bin": {
     "is-weekend": "cli.js"
@@ -29,6 +29,6 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "^11.7.0"
   }
 }
